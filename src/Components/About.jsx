@@ -14,7 +14,7 @@ function About (){
           laboriosam maxime ipsa id est, dolore inventore quis. Dolore ex, quis
           aliquid deserunt beatae quos quas consectetur reiciendis voluptatem
           corporis officiis delectus eaque illo explicabo inventore eius amet
-          facere ea ullam optio quaerat deleniti non! Consequatur, officiis quo.
+          facere ea ullam optio quaerat deleniti non! Consequatur, officiis quo
         </p>
         <h2 className="text-6xl">About SuperEats</h2>
         <p className="text-2xl">
