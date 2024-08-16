@@ -18,12 +18,22 @@ function App() {
     { path: "/about", element: <About></About> },
     { path: "/reviews", element: <Reviews></Reviews> },
     { path: "/signup", element: <SignUp></SignUp> },
-    { path: "/", element: <SignIn></SignIn> },
+    { path: "/signin", element: <SignIn></SignIn> },
     { path: "/logout", element: <LogOut></LogOut> },
   ]);
 
   return (
     <>
+    <div>
+      <NavBar/>
+    </div>
+    <main>
+      <Home />
+      <Menu />
+      <About />
+      <Reviews />
+    </main>
+
       <RouterProvider router={router}></RouterProvider>
     </>
   );

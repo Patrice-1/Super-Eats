@@ -1,36 +1,41 @@
 import React from "react";
 import MenuList from "./Assets/MenuList";
 import order1 from "../assets/order1.png";
+import order2 from "../assets/order2.png";
+import order3 from "../assets/order3.png";
+import order4 from "../assets/order4.png";
+import order5 from "../assets/order5.png";
+import order6 from "../assets/order6.png";
 
 const menuItems = [
   {
     image: order1,
-    title: "Crunchy",
+    title: "Burger",
     price: "$4.99",
   },
   {
-    image: order1,
-    title: "Spicy",
+    image: order2,
+    title: "Rice",
     price: "$5.99",
   },
   {
-    image: order1,
-    title: "Veggie",
+    image: order3,
+    title: "Sushi",
     price: "$4.49",
   },
   {
-    image: order1,
-    title: "Meat Lover",
+    image: order4,
+    title: "Dim Sum",
     price: "$6.99",
   },
   {
-    image: order1,
-    title: "Seafood",
+    image: order5,
+    title: "Ramen",
     price: "$7.99",
   },
   {
-    image: order1,
-    title: "Vegan",
+    image: order6,
+    title: "Chicken",
     price: "$5.49",
   },
 ];

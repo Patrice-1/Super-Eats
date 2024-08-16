@@ -8,7 +8,7 @@ function MenuList ({ image, title, price }){
           <img
             src={image}
             alt={title}
-            className="w-full h-auto rounded-md mb-3"
+            className="w-full h-52 rounded-md mb-3 "
           />
           <figcaption className="font-semibold mb-2 ">{title}</figcaption>
           <div>
