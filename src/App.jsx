@@ -13,7 +13,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 function App() {
   const router = createBrowserRouter([
     { path: "/Navbar", element: <NavBar></NavBar> },
-    { path: "/home", element: <Home></Home> },
+    { path: "/", element: <Home></Home> },
     { path: "/menu", element: <Menu></Menu> },
     { path: "/about", element: <About></About> },
     { path: "/reviews", element: <Reviews></Reviews> },
